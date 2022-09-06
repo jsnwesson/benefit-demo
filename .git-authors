@@ -1,0 +1,5 @@
+pairs:
+# <initials>: <Firstname> <Lastname>[; <email-id>]
+  jw: Jason Wesson; jwesson
+email:
+  domain: codeforamerica.org
