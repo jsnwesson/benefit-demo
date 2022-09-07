@@ -1,0 +1,2 @@
+module BenefitApplicationsHelper
+end

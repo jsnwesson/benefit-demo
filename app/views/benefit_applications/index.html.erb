@@ -1,0 +1,16 @@
+<h1>Benefit Applications</h1>
+
+<th>
+  <tb>
+    <% @benefit_applications.each do |app| %>
+      <tr>
+        <td><%= link_to app.id, "/benefit_applications/#{app.id}" %></td>
+        <td><%= app.name %></td>
+      </tr>
+    <% end %>
+  </tb>
+</th>
+
+<hr>
+
+<%= link_to "Create a new application", "/benefit_applications/new" %>
