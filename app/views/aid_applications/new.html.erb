@@ -1,0 +1,20 @@
+<h1>Let's create an application!</h1>
+
+<%= form_with model: @aid_application do |form| %>
+  <%= form.label "First and Last Name" %><br>
+  <%= form.text_field :name %>
+
+  <%= form.label "Phone number" %><br>
+  <%= form.telephone_field :phone_number %>
+
+  <%= form.label "Email Address" %><br>
+  <%= form.email_field :email_address %>
+
+  <%= form.label "Address (Street, City, State Zip)" %><br>
+  <%= form.text_field :address %>
+
+  <%= form.label "Birthdate" %><br>
+  <%= form.date_field :birthdate %>
+
+  <%= form.submit %>
+<% end %>

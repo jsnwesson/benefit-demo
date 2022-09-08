@@ -1,0 +1,2 @@
+module AidApplicationsHelper
+end

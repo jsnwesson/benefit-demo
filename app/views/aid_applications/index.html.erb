@@ -1,0 +1,13 @@
+<h1>Aid Applications</h1>
+
+<% @aid_applications.each do |aid_application| %>
+  <th>
+    <tb>
+      <tr>
+        <td><%= aid_application.id %></td>
+        <td><%= aid_application.primary_member %></td>
+      </tr>
+    </tb>
+  </th>
+<% end %>
+<%= link_to "Create New Application", new_aid_application_path %>
